@@ -1,0 +1,117 @@
+#header {
+	background-color: #2D8F85;
+}
+
+#logo {
+	position: relative;
+
+	width: 25%;
+	height: auto;
+}
+
+h1 {
+	position:relative;
+	left: 50%;
+	right: 50%
+	
+}
+
+h2 {
+	position:relative;
+	left: 50%;
+	right: 50%
+	
+}
+
+h3 {
+
+}
+
+#navmenu {
+
+}
+
+#navmenu ul{
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navmenu li{
+	position: relative;
+	float: left;
+	display:block;
+	top: -3em;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #FF0000;
+}
+
+
+body {
+	float: left;
+	background-color: #00FF00;
+	text-align: center;
+	position: relative;
+
+}
+
+#content {
+	background-color: #FF0000
+	border: #FFFFFF solid 2px;
+	position: relative;
+	left: -50%;
+
+	
+}
+
+#left {
+
+	float: left;
+	text-align: center;
+	width: 50%;
+	position:relative;
+	left: 50%;
+	right: 50%;
+	background-color: #FFFFFF;
+}
+
+#right {
+
+	float: right;
+	text-align: center;
+	width: 50%;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	background-color: #FFFFFF;
+}
+
+#footernav {
+	background-color: #FFFFFF
+	float:left;
+	position: relative;
+	
+	}
+
+footer {
+	float:left;
+	position: relative;
+	left: 45%;
+}
+
+a:link {
+	color:#FF0000;}  /* unvisited link coloration to blend with the card */
+
+a:visited {
+	color:#00FF00;}  /* visited link coloration to blend with the card  */
+
+a:hover {
+	color:#FF00FF;}  /* mouse over link coloration to blend with the card */
+
+a:active {
+	color:#2D8F85;}  /* selected link coloration to blend with the card */ 
