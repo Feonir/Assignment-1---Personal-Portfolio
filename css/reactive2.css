@@ -1,25 +1,31 @@
 #header {
 	background-color: #2D8F85;
+
 }
 
 #logo {
 	position: relative;
-
-	width: 25%;
+	width: 1%;
 	height: auto;
+	float: left;
 }
 
 h1 {
 	position:relative;
-	left: 50%;
-	right: 50%
-	
+	height: 2em;
+	font-size: 3.05em;	
+	text-align: center;
+	padding: 2em 0 0 0;
+
 }
 
 h2 {
 	position:relative;
 	left: 50%;
-	right: 50%
+	right: 50%;
+	background-color: #FFFFFF;
+	padding 3em 2em 3em 2em;
+	margin: 1em;
 	
 }
 
@@ -28,29 +34,36 @@ h3 {
 }
 
 #navmenu {
-
+	margin: 0; padding: 0px 0;
+	list-style-type: none;
+	height: 26px;	
 }
 
 #navmenu ul{
 	float: left;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 0; padding: 0;
+	width: 20%;
 }
 
 #navmenu li{
-	position: relative;
 	float: left;
-	display:block;
-	top: -3em;
-	font-size: 1.5em;
-	font-weight: bold;
+	margin: 0; padding: 0;
+	width: 19%;
+}
+
+#navmenu a{
+	position: relative;
+	display: block;
+	margin: 0px;
+	height: 24px;
+	font-size: 10px;
+	line-height: 24px;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	background-color: #FF0000;
+	background: gray;
+	color: white;
 }
-
 
 body {
 	float: left;
@@ -61,10 +74,9 @@ body {
 }
 
 #content {
-	background-color: #FF0000
-	border: #FFFFFF solid 2px;
 	position: relative;
 	left: -50%;
+	padding: 2em 1em 2em 1em;
 
 	
 }
@@ -78,17 +90,19 @@ body {
 	left: 50%;
 	right: 50%;
 	background-color: #FFFFFF;
+	border: #808080 solid 2px;
 }
 
 #right {
 
 	float: right;
 	text-align: center;
-	width: 50%;
+	width: 49%;
 	position: relative;
 	left: 50%;
 	right: 50%;
 	background-color: #FFFFFF;
+	border: #808080 solid 3px;
 }
 
 #footernav {
@@ -102,8 +116,21 @@ footer {
 	float:left;
 	position: relative;
 	left: 45%;
+	height: 1em;
 }
 
+footer {
+	margin: 10px 0 10px 0;
+	padding: 5px 0;
+	text-align: center;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	}
+	
+footer a {
+	padding: 3px 5px;
+	}
+	
 a:link {
 	color:#FF0000;}  /* unvisited link coloration to blend with the card */
 
